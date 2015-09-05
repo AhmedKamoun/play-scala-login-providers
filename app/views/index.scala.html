@@ -1,0 +1,16 @@
+@(message: String, github_redirect: String, facebook_redirect: String, google_redirect: String)
+
+@main("Welcome to Play") {
+    <a href="@github_redirect">
+        <img src="assets/images/github_login.png" alt="Githib login" border="0">
+    </a>
+    <br> <br>
+    <a href="@facebook_redirect">
+        <img src="assets/images/facebook_login.png" width="263px" height="65px" alt="Facebook login" border="0">
+    </a>
+    <br> <br>
+    <a href="@google_redirect">
+        <img src="assets/images/google_login.png" width="263px" height="65px" alt="Google login" border="0">
+    </a>
+
+}
